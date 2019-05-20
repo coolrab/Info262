@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 100vh;
+   /* background-image: url(appetizer-color-dark-326268.jpg);  */
+   background-image: url(color-diet-food-255501.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content:center;
+  align-items: baseline;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 45px;
+  letter-spacing: 2px;
+}
+
+span{
+  color: #f44336;
+}
+
+.search-field{
+  height: 50px;
+  padding: 10px;
+}
+.recipe{
+  width: 400px;
+  border-radius: 10px;
+}
+
+.allergy{
+  width: 200px;
+  border-radius: 10px;
+}
+
+.calories{
+  height: 70px;
+  padding: 10px;
+}
+.diet{
+  height: 70px;
+  padding: 10px;
+  width: 150px;
+}
+
+.search-btn {
+  height: 50px;
+  width:150px;
+  background: #f44336;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.search-btn:hover {
+  background: #bb0d00;
+  cursor: pointer;
+}
+
+.form-box {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 30px 50px;
+}
